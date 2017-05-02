@@ -46,6 +46,10 @@
                     @endforeach
                 </tbody>
             </table>
+
+            <div class="text-center">
+                {!! $posts->link() !!}
+            </div>
         </div>
     </div>
 
