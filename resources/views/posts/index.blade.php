@@ -48,7 +48,7 @@
             </table>
 
             <div class="text-center">
-                {!! $posts->link() !!}
+                {!! $posts->render() !!}
             </div>
         </div>
     </div>
