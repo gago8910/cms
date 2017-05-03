@@ -34,6 +34,11 @@
                         </div>
                     </form>
                 </div>
+                <div class="row btn-h1-spacing">
+                    <div class="col-sm-12">
+                        <a href="{{ route('posts.index') }}" class="btn btn-default btn-sm btn-block"><< See All Posts</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
